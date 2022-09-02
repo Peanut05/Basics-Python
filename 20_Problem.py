@@ -3,4 +3,4 @@ using escape sequence charectres
 hello Krushna
 this is the last problem of this topic
 Thank you! '''
-print("hello Krushna \n\tthis is the last problem of this topic \n\tThank you!") 
+print("hello Peanut \n\t this is the last problem of this topic \n\t Thank you!") 
