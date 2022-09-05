@@ -44,3 +44,5 @@ list4 = ['state','bank','of','india']
 print(list4)
 list4.remove('india')
 print(list4)
+
+
