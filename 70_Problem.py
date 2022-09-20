@@ -7,4 +7,5 @@ for i in range (1 , num+1):
     add = add + i
     i = i + 1
 
+    
 print("natural number sum till",add)
