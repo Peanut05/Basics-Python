@@ -35,3 +35,9 @@ marks2 = [80,88,90,87]
 persantage2 = persent(marks2)
 
 print(persantage1,persantage2)
+
+
+
+
+
+
