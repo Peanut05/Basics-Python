@@ -37,5 +37,10 @@ def fact_recursive(n):
     if n==1 or n==0:   #formula                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
         return 1
     return fact_recursive(n-1) *n
-f = fact_recursive(2) #Function calling itself
+f = fact_recursive(2) #Function calling itself and got all metod in duntion
+
 print(f)
+
+
+
+
