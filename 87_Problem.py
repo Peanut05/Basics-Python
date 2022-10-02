@@ -9,3 +9,4 @@ k = 11
 tabl(k)
 print(num1)
 
+
