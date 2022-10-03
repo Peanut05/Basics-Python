@@ -1,73 +1,76 @@
-Read/Write Files
+'''Read/Write Files
 A. Create a File:
-Creating a file is primarily done using the create (x) mode.
+Creating a file is primarily done using the create (x) mode.'''
 
-Example:
+#Example:
 
 file = open("Text.txt", "x")
 Output:
 
-A file named Text.txt is created with no content.
+#A file named Text.txt is created with no content.
  
 
-B. Write onto a File:
-This method writes content onto a file.
+'''B. Write onto a File:
+This method writes content onto a file.'''
 
-Example:
+#Example:
 
 file = open("Text.txt", "w")
 file.write("This is an example of file creation.")
 file.close
-Output:
 
-This is an example of file creation.
+#Output:
+
+#This is an example of file creation.
  
 
-If the file already exists with some content of its own, then this mode overwrites it.
+#If the file already exists with some content of its own, then this mode overwrites it.
 
-Example:
+#Example:
 
 file = open("Text.txt", "w")
 file.write("This is overwritten text.")
 file.close
-Output:
 
-This is overwritten text.
+#Output:
+
+#This is overwritten text.
  
 
-C. Read a File:
-This method allows us to read the contents of the file.
+'''C. Read a File:
+This method allows us to read the contents of the file.'''
 
-Example:
+#Example:
 
 file = open("Text2.txt", "r")
 print(file.read())
 file.close
-Output:
+
+#Output:
 
 Hello, I’m a Potato.
  
 
-D. Append a File:
-This method appends content into a file.
+'''D. Append a File:
+This method appends content into a file.'''
 
-Example:
+#Example:
 
 file = open("newText.txt", "a")
 file.write("This is an example of file appending.")
 file.close
-Output:
+#Output:
 
-This is an example of file appending.
+#This is an example of file appending.
  
 
-However, If the file exists already with some content in it, then the new content gets appended.
+#However, If the file exists already with some content in it, then the new content gets appended.
 
-Example:
+#Example:
 
 file = open("newText.txt", "a")
 file.write(" Hello, I'm appending")
 file.close
 Output:
 
-This is an example of file appending. Hello, I'm appending
+#This is an example of file appending. Hello, I'm appending
