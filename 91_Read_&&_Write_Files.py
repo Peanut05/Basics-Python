@@ -2,7 +2,7 @@
 A. Create a File:
 Creating a file is primarily done using the create (x) mode.'''
 
-#Example:
+#Example:==>>>
 
 file = open("Text.txt", "x")
 Output:
@@ -48,7 +48,7 @@ file.close
 
 #Output:
 
-Hello, I’m a Potato.
+#Hello, I’m a Potato.
  
 
 '''D. Append a File:
@@ -59,6 +59,7 @@ This method appends content into a file.'''
 file = open("newText.txt", "a")
 file.write("This is an example of file appending.")
 file.close
+
 #Output:
 
 #This is an example of file appending.
