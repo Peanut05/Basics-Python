@@ -30,3 +30,7 @@ Apart from these modes we also need to specify how the file must be handled:
 
 text (t): Used to handle text files.
 binary (b): used to handle binary files (images).
+
+ 
+ 
+ 
